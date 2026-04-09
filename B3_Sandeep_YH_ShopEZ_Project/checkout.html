@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="navbar"></div>
+
+<div class="container mt-4">
+  <h2>Checkout</h2>
+
+  <form onsubmit="placeOrder(event)">
+    <div class="mb-3">
+      <label>Name</label>
+      <input type="text" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Address</label>
+      <textarea class="form-control" required></textarea>
+    </div>
+
+    <button class="btn btn-success">Place Order</button>
+  </form>
+</div>
+
+<script src="js/common.js"></script>
+
+<script>
+  loadNavbar();
+
+  function placeOrder(event) {
+    event.preventDefault();
+
+    localStorage.removeItem("cart");
+
+    alert("Order placed successfully!");
+
+    window.location.href = "index.html";
+  }
+</script>
+
+</body>
+</html>

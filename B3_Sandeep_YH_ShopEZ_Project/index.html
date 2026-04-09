@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShopEZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ✅ Navbar -->
+<div id="navbar"></div>
+
+<!-- ✅ Products Section -->
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- Product 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card h-100">
+
+        <a href="product.html?name=Aqualogica Sunscreen&price=399&image=images/aqualogica.webp&desc=Hydrating sunscreen with SPF 50">
+          <img src="images/aqualogica.webp" class="card-img-top" height="250">
+        </a>
+
+        <div class="card-body text-center d-flex flex-column">
+          <h5>Aqualogica Sunscreen</h5>
+          <p>₹399</p>
+          <button class="btn btn-primary mt-auto"
+            onclick="addToCart('Aqualogica Sunscreen', 399, 'images/aqualogica.webp')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card h-100">
+
+        <a href="product.html?name=Dermaco Serum&price=499&image=images/DERMACO.jfif&desc=Skin brightening serum">
+          <img src="images/DERMACO.jfif" class="card-img-top" height="250">
+        </a>
+
+        <div class="card-body text-center d-flex flex-column">
+          <h5>Dermaco Serum</h5>
+          <p>₹499</p>
+          <button class="btn btn-primary mt-auto"
+            onclick="addToCart('Dermaco Serum', 499, 'images/DERMACO.jfif')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card h-100">
+
+        <a href="product.html?name=Dot & Key Cream&price=350&image=images/dot&key.jfif&desc=Moisturizing face cream">
+          <img src="images/dot&key.jfif" class="card-img-top" height="250">
+        </a>
+
+        <div class="card-body text-center d-flex flex-column">
+          <h5>Dot & Key Cream</h5>
+          <p>₹350</p>
+          <button class="btn btn-primary mt-auto"
+            onclick="addToCart('Dot & Key Cream', 350, 'images/dot&key.jfif')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card h-100">
+
+        <a href="product.html?name=Foxtale Cleanser&price=299&image=images/foxtale.webp&desc=Gentle face cleanser">
+          <img src="images/foxtale.webp" class="card-img-top" height="250">
+        </a>
+
+        <div class="card-body text-center d-flex flex-column">
+          <h5>Foxtale Cleanser</h5>
+          <p>₹299</p>
+          <button class="btn btn-primary mt-auto"
+            onclick="addToCart('Foxtale Cleanser', 299, 'images/foxtale.webp')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card h-100">
+
+        <a href="product.html?name=Nivea SPF 50&price=450&image=images/nivea_spf_50.webp&desc=Sun protection lotion">
+          <img src="images/nivea_spf_50.webp" class="card-img-top" height="250">
+        </a>
+
+        <div class="card-body text-center d-flex flex-column">
+          <h5>Nivea SPF 50</h5>
+          <p>₹450</p>
+          <button class="btn btn-primary mt-auto"
+            onclick="addToCart('Nivea SPF 50', 450, 'images/nivea_spf_50.webp')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- JS  -->
+<script src="js/common.js"></script>
+<script src="js/cart.js"></script>
+
+<script>
+  loadNavbar();
+</script>
+
+</body>
+</html>

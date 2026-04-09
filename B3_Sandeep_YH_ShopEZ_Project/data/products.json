@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Aqualogica Sunscreen",
+    "description": "Hydrating sunscreen with SPF 50",
+    "price": 399,
+    "image": "images/aqualogica.webp"
+  },
+  {
+    "id": 2,
+    "name": "Dermaco Serum",
+    "description": "Skin brightening serum",
+    "price": 499,
+    "image": "images/DERMACO.jfif"
+  },
+  {
+    "id": 3,
+    "name": "Dot Key Cream",
+    "description": "Moisturizing face cream",
+    "price": 350,
+    "image": "images/dot&key.jfif"
+  },
+  {
+    "id": 4,
+    "name": "Foxtale Cleanser",
+    "description": "Gentle face cleanser",
+    "price": 299,
+    "image": "images/foxtale.webp"
+  },
+  {
+    "id": 5,
+    "name": "Nivea SPF 50",
+    "description": "Sun protection lotion",
+    "price": 450,
+    "image": "images/nivea_spf_50.webp"
+  }
+]
